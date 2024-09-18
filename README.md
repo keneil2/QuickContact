@@ -22,8 +22,8 @@ After installation, you need to publish the package’s assets and migration fil
 
 bash
 Copy code
-''php artisan vendor:publish --tag="quickcontact-config"''
-''php artisan vendor:publish --tag="quickcontact-migrations"''
+```php artisan vendor:publish --tag="quickcontact-config"```
+```php artisan vendor:publish --tag="quickcontact-migrations"```
 
 Step 3: Run Migrations
 Once the migration files are published, run the migrations to create the necessary database tables:
@@ -38,7 +38,7 @@ You can customize the form component by publishing the views:
 
 bash
 Copy code
-php artisan vendor:publish --tag="quickcontact-views"
+```php artisan vendor:publish --tag="quickcontact-views"```
 Usage
 Contact Form
 To allow users to submit queries, navigate to the /contact route in your browser. This route displays the form where users can submit their queries.
