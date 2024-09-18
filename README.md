@@ -23,6 +23,7 @@ After installation, you need to publish the package’s assets and migration fil
 bash
 Copy code
 ```php artisan vendor:publish --tag="quickcontact-config"```
+
 ```php artisan vendor:publish --tag="quickcontact-migrations"```
 
 Step 3: Run Migrations
