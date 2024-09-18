@@ -1,0 +1,27 @@
+{
+    "name": "keneil/quickcontact",
+    "description": "contact form a package that automatic contact form for you !!!",
+    "type": "pacakge",
+    "require-dev": {
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Keneil Samms"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "QuickContact\\":"src/"
+        }
+    },
+    "require": {},
+    "extra": {
+    "laravel":{
+   "providers":[
+     "QuickContact\\QuickContactServiceProvider"
+   ]
+    }
+
+    }
+}
