@@ -15,15 +15,16 @@ You can install the package via Composer:
 
 bash
 Copy code
-<div>composer require vendorname/quickcontact<div>
+composer require vendorname/quickcontact
 
 Step 2: Publish the Configuration & Migrations
 After installation, you need to publish the package’s assets and migration files:
 
 bash
 Copy code
-php artisan vendor:publish --tag="quickcontact-config"
-php artisan vendor:publish --tag="quickcontact-migrations"
+''php artisan vendor:publish --tag="quickcontact-config"''
+''php artisan vendor:publish --tag="quickcontact-migrations"''
+
 Step 3: Run Migrations
 Once the migration files are published, run the migrations to create the necessary database tables:
 
