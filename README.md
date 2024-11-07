@@ -97,5 +97,3 @@ Here is an example of how the package works:
 QuickContact is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 
 ---
-
-**Additional Notes**: If you plan to add more features later (such as API support or notifications), you can update the README to reflect those changes. Ensure that users know where to customize things like routes, views, and emails based on how your package is designed.
